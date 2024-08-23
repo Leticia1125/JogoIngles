@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/fundo"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/buttonSair"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ff00ff"
+        android:gravity="center"
+        android:text="voltar"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/AnimalPortuguesac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/Animal1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Horse"
+        android:textColor="@color/black"
+        android:backgroundTint="#c6d8f0"/>
+
+    <Button
+        android:id="@+id/Animal2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bunny"
+        android:textColor="@color/black"
+        android:backgroundTint="#d8bfd8"/>
+
+    <Button
+        android:id="@+id/Animal3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Monkey"
+        android:textColor="@color/black"
+        android:backgroundTint="#ccff99"/>
+
+    <Button
+        android:id="@+id/Animal4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dog"
+        android:textColor="@color/black"
+        android:backgroundTint="#ffb394"/>
+
+    <Button
+        android:id="@+id/Animal5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cat"
+        android:textColor="@color/black"
+        android:backgroundTint="#ff8ad2"/>
+
+    <Button
+        android:id="@+id/Animal6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mouse"
+        android:textColor="@color/black"
+        android:backgroundTint="#bfffec"/>
+
+    <Button
+        android:id="@+id/Animal7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cow"
+        android:textColor="@color/black"
+        android:backgroundTint="#fff2a7"/>
+
+    <Button
+        android:id="@+id/Animal8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Duck"
+        android:textColor="@color/black"
+        android:backgroundTint="#f4d5c0"/>
+
+
+</LinearLayout>
